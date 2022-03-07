@@ -78,7 +78,7 @@ Partial Class Form1
         Me.GroupBox4.Controls.Add(Me.Button19)
         Me.GroupBox4.Controls.Add(Me.Button20)
         Me.GroupBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox4.Location = New System.Drawing.Point(235, 12)
+        Me.GroupBox4.Location = New System.Drawing.Point(279, 12)
         Me.GroupBox4.Name = "GroupBox4"
         Me.GroupBox4.Size = New System.Drawing.Size(219, 126)
         Me.GroupBox4.TabIndex = 31
@@ -97,45 +97,49 @@ Partial Class Form1
         '
         'Button22
         '
+        Me.Button22.BackColor = System.Drawing.Color.White
         Me.Button22.Location = New System.Drawing.Point(25, 92)
         Me.Button22.Name = "Button22"
         Me.Button22.Size = New System.Drawing.Size(75, 28)
         Me.Button22.TabIndex = 24
         Me.Button22.Text = "Select"
-        Me.Button22.UseVisualStyleBackColor = True
+        Me.Button22.UseVisualStyleBackColor = False
         '
         'Button21
         '
+        Me.Button21.BackColor = System.Drawing.Color.White
         Me.Button21.Location = New System.Drawing.Point(135, 92)
         Me.Button21.Name = "Button21"
         Me.Button21.Size = New System.Drawing.Size(75, 28)
         Me.Button21.TabIndex = 25
         Me.Button21.Text = "Rotate"
-        Me.Button21.UseVisualStyleBackColor = True
+        Me.Button21.UseVisualStyleBackColor = False
         '
         'Button19
         '
+        Me.Button19.BackColor = System.Drawing.Color.White
         Me.Button19.Location = New System.Drawing.Point(135, 24)
         Me.Button19.Name = "Button19"
         Me.Button19.Size = New System.Drawing.Size(75, 28)
         Me.Button19.TabIndex = 23
         Me.Button19.Text = "Crop"
-        Me.Button19.UseVisualStyleBackColor = True
+        Me.Button19.UseVisualStyleBackColor = False
         '
         'Button20
         '
+        Me.Button20.BackColor = System.Drawing.Color.White
         Me.Button20.Location = New System.Drawing.Point(135, 58)
         Me.Button20.Name = "Button20"
         Me.Button20.Size = New System.Drawing.Size(75, 28)
         Me.Button20.TabIndex = 24
         Me.Button20.Text = "Resize"
-        Me.Button20.UseVisualStyleBackColor = True
+        Me.Button20.UseVisualStyleBackColor = False
         '
         'GroupBox3
         '
         Me.GroupBox3.Controls.Add(Me.PictureBox6)
         Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox3.Location = New System.Drawing.Point(460, 12)
+        Me.GroupBox3.Location = New System.Drawing.Point(504, 12)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(178, 126)
         Me.GroupBox3.TabIndex = 30
@@ -159,7 +163,7 @@ Partial Class Form1
         Me.GroupBox2.Controls.Add(Me.PictureBox1)
         Me.GroupBox2.Controls.Add(Me.PictureBox2)
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.Location = New System.Drawing.Point(644, 12)
+        Me.GroupBox2.Location = New System.Drawing.Point(688, 12)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(252, 126)
         Me.GroupBox2.TabIndex = 29
@@ -220,7 +224,7 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.Button6)
         Me.GroupBox1.Controls.Add(Me.Button8)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(902, 12)
+        Me.GroupBox1.Location = New System.Drawing.Point(946, 12)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(172, 126)
         Me.GroupBox1.TabIndex = 28
@@ -412,7 +416,7 @@ Partial Class Form1
         Me.GroupBox6.Controls.Add(Me.Button28)
         Me.GroupBox6.Controls.Add(Me.Button26)
         Me.GroupBox6.Controls.Add(Me.Button27)
-        Me.GroupBox6.Location = New System.Drawing.Point(29, 14)
+        Me.GroupBox6.Location = New System.Drawing.Point(73, 14)
         Me.GroupBox6.Name = "GroupBox6"
         Me.GroupBox6.Size = New System.Drawing.Size(200, 124)
         Me.GroupBox6.TabIndex = 33
@@ -420,30 +424,36 @@ Partial Class Form1
         '
         'Button26
         '
+        Me.Button26.BackColor = System.Drawing.Color.White
+        Me.Button26.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button26.Location = New System.Drawing.Point(6, 19)
         Me.Button26.Name = "Button26"
         Me.Button26.Size = New System.Drawing.Size(75, 47)
         Me.Button26.TabIndex = 34
         Me.Button26.Text = "Copy"
-        Me.Button26.UseVisualStyleBackColor = True
+        Me.Button26.UseVisualStyleBackColor = False
         '
         'Button27
         '
+        Me.Button27.BackColor = System.Drawing.Color.White
+        Me.Button27.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button27.Location = New System.Drawing.Point(119, 19)
         Me.Button27.Name = "Button27"
         Me.Button27.Size = New System.Drawing.Size(75, 47)
         Me.Button27.TabIndex = 35
         Me.Button27.Text = "Cut"
-        Me.Button27.UseVisualStyleBackColor = True
+        Me.Button27.UseVisualStyleBackColor = False
         '
         'Button28
         '
+        Me.Button28.BackColor = System.Drawing.Color.White
+        Me.Button28.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button28.Location = New System.Drawing.Point(62, 72)
         Me.Button28.Name = "Button28"
         Me.Button28.Size = New System.Drawing.Size(75, 46)
         Me.Button28.TabIndex = 36
         Me.Button28.Text = "Paste"
-        Me.Button28.UseVisualStyleBackColor = True
+        Me.Button28.UseVisualStyleBackColor = False
         '
         'Form1
         '
